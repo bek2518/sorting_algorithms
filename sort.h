@@ -32,6 +32,7 @@ void quick_sort(int *array, size_t size);
  * @array: The array to be printed
  * @size: Number of elements in @array
  */
+/**
 void print_array(const int *array, size_t size)
 {
     size_t i;
@@ -46,12 +47,13 @@ void print_array(const int *array, size_t size)
     }
     printf("\n");
 }
-
+*/
 /**
  * print_list - Prints a list of integers
  *
  * @list: The list to be printed
  */
+/**
 void print_list(const listint_t *list)
 {
     int i;
@@ -67,5 +69,5 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
-
+*/
 #endif
